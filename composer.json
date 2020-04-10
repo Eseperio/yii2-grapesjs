@@ -1,0 +1,32 @@
+{
+    "name": "jc-it/yii2-grapesjs",
+    "description": "GrapesJS implementation for Yii2.",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.0",
+
+        "npm-asset/grapesjs": "^0.16.3",
+        "npm-asset/grapesjs-mjml": "^0.1.15",
+        "npm-asset/grapesjs-preset-newsletter": "^0.2.20",
+        "npm-asset/grapesjs-preset-webpage": "^0.1.11",
+        "yiisoft/yii2": "~2.0.19"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joey Claessen",
+            "email": "joey_claessen@hotmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JCIT\\": ["src/"]
+        }
+    }
+}
