@@ -14,18 +14,13 @@ class AssetBundle extends YiiAssetBundle
      * @var array
      */
     public $css = [
-        'grapes.min.css',
+        'https://unpkg.com/grapesjs/dist/css/grapes.min.css',
     ];
 
     /**
      * @var array
      */
     public $js = [
-        YII_ENV_DEV ? 'grapes.js' : 'grapes.min.js',
+        'https://unpkg.com/grapesjs',
     ];
-
-    /**
-     * @var string
-     */
-    public $sourcePath = '@vendor/npm-asset/grapesjs/dist';
 }

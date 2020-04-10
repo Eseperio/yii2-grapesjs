@@ -14,7 +14,7 @@ class AssetBundle extends GrapesJsPluginAssetBundle
      * @var array
      */
     public $css = [
-        'grapesjs-preset-newsletter.min.css',
+        'https://unpkg.com/browse/grapesjs-preset-newsletter@0.2.20/dist/grapesjs-preset-newsletter.css',
     ];
 
     /**
@@ -26,11 +26,6 @@ class AssetBundle extends GrapesJsPluginAssetBundle
      * @var array
      */
     public $js = [
-        'grapesjs-preset-newsletter-min.js',
+        'https://unpkg.com/browse/grapesjs-preset-newsletter@0.2.20/dist/grapesjs-preset-newsletter-min.js',
     ];
-
-    /**
-     * @var string
-     */
-    public $sourcePath = '@vendor/npm-asset/grapesjs-preset-newsletter/dist';
 }

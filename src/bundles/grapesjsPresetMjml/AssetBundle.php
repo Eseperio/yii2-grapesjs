@@ -19,11 +19,6 @@ class AssetBundle extends GrapesJsPluginAssetBundle
      * @var array
      */
     public $js = [
-        'grapesjs-mjml.min.js',
+        'https://unpkg.com/grapesjs-mjml@0.1.15/dist/grapesjs-mjml.min.js',
     ];
-
-    /**
-     * @var string
-     */
-    public $sourcePath = '@vendor/npm-asset/grapesjs-mjml/dist';
 }

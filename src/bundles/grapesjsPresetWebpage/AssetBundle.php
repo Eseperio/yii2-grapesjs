@@ -14,7 +14,7 @@ class AssetBundle extends GrapesJsPluginAssetBundle
      * @var array
      */
     public $css = [
-        'grapesjs-preset-webpage.min.css',
+        'https://unpkg.com/grapesjs-preset-webpage@0.1.11/dist/grapesjs-preset-webpage.min.css',
     ];
 
     /**
@@ -26,11 +26,6 @@ class AssetBundle extends GrapesJsPluginAssetBundle
      * @var array
      */
     public $js = [
-        'grapesjs-preset-webpage-min.js',
+        'https://unpkg.com/grapesjs-preset-webpage@0.1.11/dist/grapesjs-preset-webpage-min.js',
     ];
-
-    /**
-     * @var string
-     */
-    public $sourcePath = '@vendor/npm-asset/grapesjs-preset-webpage/dist';
 }
