@@ -1,14 +1,13 @@
 <?php
 
-namespace JCIT\src\bundles\grapesjsPresetMjml;
+namespace eseperio\grapesjs\assets;
 
-use JCIT\bundles\GrapesJsPluginAssetBundle;
 
 /**
  * Class AssetBundle
- * @package JCIT\src\bundles\grapesjsPresetMjml
+ * @package eseperio\grapesjs\assets\GrapesjsPresetMjml
  */
-class AssetBundle extends GrapesJsPluginAssetBundle
+class GrapesjsPresetMjmlAssetBase extends GrapesJsPluginAssetBase
 {
     /**
      * @var string
@@ -21,4 +20,5 @@ class AssetBundle extends GrapesJsPluginAssetBundle
     public $js = [
         'https://unpkg.com/grapesjs-mjml@0.1.15/dist/grapesjs-mjml.min.js',
     ];
+
 }

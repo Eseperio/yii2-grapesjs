@@ -1,5 +1,5 @@
 {
-    "name": "jc-it/yii2-grapesjs",
+    "name": "eseperio/yii2-grapesjs",
     "description": "GrapesJS implementation for Yii2.",
     "type": "library",
     "require": {
@@ -12,6 +12,9 @@
         {
             "name": "Joey Claessen",
             "email": "joey_claessen@hotmail.com"
+        },
+        {
+            "name": "E.Alamo"
         }
     ],
     "repositories": [
@@ -22,7 +25,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "JCIT\\": ["src/"]
+            "eseperio\\grapesjs\\": "src/"
         }
     }
 }

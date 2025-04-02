@@ -1,15 +1,15 @@
 <?php
 
-namespace JCIT\bundles;
+namespace eseperio\grapesjs\assets;
 
 use yii\base\InvalidConfigException;
 use yii\web\AssetBundle;
 
 /**
  * Class GrapesJsPluginAssetBundle
- * @package JCIT\bundles
+ * @package eseperio\grapesjs\assets
  */
-abstract class GrapesJsPluginAssetBundle extends AssetBundle
+abstract class GrapesJsPluginAssetBase extends AssetBundle
 {
     /**
      * String that represents the name how the plugin should be loaded into GrapesJS

@@ -1,14 +1,13 @@
 <?php
 
-namespace JCIT\src\bundles\grapesjsPresetWebpage;
+namespace eseperio\grapesjs\assets;
 
-use JCIT\bundles\GrapesJsPluginAssetBundle;
 
 /**
  * Class AssetBundle
- * @package JCIT\src\bundles\grapesjsPresetWebpage
+ * @package eseperio\grapesjs\assets\GrapesjsPresetWebpage
  */
-class AssetBundle extends GrapesJsPluginAssetBundle
+class GrapesjsPresetWebpageAssetBase extends GrapesJsPluginAssetBase
 {
     /**
      * @var array

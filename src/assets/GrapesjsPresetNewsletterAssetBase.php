@@ -1,14 +1,13 @@
 <?php
 
-namespace JCIT\src\bundles\grapesjsPresetNewsletter;
+namespace eseperio\grapesjs\assets;
 
-use JCIT\bundles\GrapesJsPluginAssetBundle;
 
 /**
  * Class AssetBundle
- * @package JCIT\src\bundles\grapesjsPresetNewsletter
+ * @package eseperio\grapesjs\assets\GrapesjsPresetNewsletter
  */
-class AssetBundle extends GrapesJsPluginAssetBundle
+class GrapesjsPresetNewsletterAssetBase extends GrapesJsPluginAssetBase
 {
     /**
      * @var array

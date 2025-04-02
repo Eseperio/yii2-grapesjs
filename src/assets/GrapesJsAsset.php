@@ -1,14 +1,14 @@
 <?php
 
-namespace JCIT\src\bundles\grapesjs;
+namespace eseperio\grapesjs\assets;
 
 use yii\web\AssetBundle as YiiAssetBundle;
 
 /**
  * Class AssetBundle
- * @package JCIT\src\bundles\grapesjs
+ * @package eseperio\grapesjs\assets\Grapesjs
  */
-class AssetBundle extends YiiAssetBundle
+class GrapesJsAsset extends YiiAssetBundle
 {
     /**
      * @var array
